@@ -1,0 +1,2 @@
+echo "stopping kali"
+docker-compose down
