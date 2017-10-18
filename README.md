@@ -9,18 +9,26 @@ to use Dockali, you simply need a working installation of docker!
 
 #### Usage:
 1. Clone this repo!
-```git clone https://github.com/matthewpdias/dockali```
+```bash
+git clone https://github.com/matthewpdias/dockali
+```
 
 2. Run the start script! This will take a little while the first time, depending on your connection, but once you have to container locally it will not be downloaded again unless I push an update.
-```./start```
+```bash
+./start
+```
 
 3. Use Kali! The start script automatically drops you into the kali container, with bash as your default shell.
-```hacker stuff here```
+```bash
+//hacker stuff here
+```
 
 4. When you are done hacking, type `exit` the same way you would to terminate an ssh session
 
 5. Run the stop script to kill the containers. This will free up any resources the container is using, except for the disk space in the persistent directory.
-```./stop```
+```bash
+./stop
+```
 
 ## Notes:
 - Only files and subdirectories in /home will be saved to your hard drive, in a docker-managed storage volume. This means anything else you do will go away and be erased upon restart! Keep any files you want in `/home` or a subdirectory of `/home`! If 
