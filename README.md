@@ -25,10 +25,6 @@ git clone https://github.com/matthewpdias/dockali
 
 4. When you are done hacking, type `exit` the same way you would to terminate an ssh session
 
-5. Run the stop script to kill the containers. This will free up any resources the container is using, except for the disk space in the persistent directory.
-```bash
-./stop
-```
 
 ## Notes:
 - Only files and subdirectories in /home will be saved to your hard drive, in a docker-managed storage volume. This means anything else you do will go away and be erased upon restart! Keep any files you want in `/home` or a subdirectory of `/home`! If 
