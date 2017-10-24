@@ -27,7 +27,7 @@ git clone https://github.com/matthewpdias/dockali
 
 
 ## Notes:
-- Only files and subdirectories in /home will be saved to your hard drive, in a docker-managed storage volume. This means anything else you do will go away and be erased upon restart! Keep any files you want in `/home` or a subdirectory of `/home`! If 
+- Only files and subdirectories in /home will be saved to your hard drive, in a docker-managed storage volume. This means anything else you do will go away and be erased upon restart! Keep any files you want in `/home` or a subdirectory of `/home`! 
 
  - By default Kali only has a root user, this is the role you assume when you run the start script.
  
