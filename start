@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "starting your kali container"
-echo "connecting kali container"
-echo "type exit to quit the kali shell"
-docker run -v kali_home:/home -it matthewpdias/dockali:latest bash
