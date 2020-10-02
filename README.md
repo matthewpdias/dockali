@@ -36,4 +36,4 @@ git clone https://github.com/matthewpdias/dockali
 ## Support & Feature request
 If you want to add something, feel free to submit a PR. I will not accept any PR's that change docker images or download anything I am unsure about. I don't want to put my name on anything that I'm not sure about. You can always [fork](https://github.com/matthewpdias/dockali#fork-destination-box) if you want to add something custom that I don't accept.
 
-If you have a feature request, you can ping me at matt@cins548.slack.com! Happy hacking!
+If you have a feature request, please open a github issue on this repo! Happy hacking!
